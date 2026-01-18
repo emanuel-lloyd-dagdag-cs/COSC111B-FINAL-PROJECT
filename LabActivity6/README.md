@@ -1,1 +1,3 @@
 Laboratory Activity #6
+
+This activity creates a Button-Controlled Lighting System that routes signals through a Python script before activating the lights. When you press a physical button on the breadboard, the Arduino sends a letter (like 'R' for Red) to the computer, where the Python program detects it and sends a command back (like '1') to actually toggle the LED. This "round-trip" communication proves the computer is actively managing the hardware rather than just watching it. The system also features an idle timer that clears the screen and redisplays the menu instructions if you haven't pressed a button for five seconds.
